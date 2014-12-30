@@ -13,6 +13,9 @@ node_modules
 components
 bower_components
 
+# Fonts
+public/fonts/
+
 # Compile directories
 www/
 _book/
