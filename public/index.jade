@@ -1,0 +1,15 @@
+h1 Open Source at Lost Type
+
+ul.ghrepo-list
+  each project in public._data
+    li.ghrepo-item
+      github-repo(src="#{ project.repo }")
+      noscript
+        a.ghrepo(data-ghrepo="url" href="https://github.com/#{ project. repo }")
+          .ghrepo-title(data-ghrepo="fullName") #{ project.repo }
+          .ghrepo-description
+            div(data-ghrepo="description") #{ project.desc }
+          .ghrepo-meta
+            span.ghrepo-stars <span>5</span> stars
+            | &nbsp;&ndash;&nbsp;
+            span.ghrepo-forks <span>5,000</span> forks

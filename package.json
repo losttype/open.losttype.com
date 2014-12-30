@@ -1,0 +1,21 @@
+{
+  "name": "opensource.losttype.com",
+  "version": "0.1.0",
+  "description": "Lost Type Co-op’s open source projects.",
+  "homepage": "opensource.losttype.com",
+  "repository": "https://github.com/losttype/opensource.losttype.com",
+  "main": "public/index.html",
+  "license": "MIT",
+  "private": true,
+  "author": "Kenneth Ormandy <hello@kennethormandy.com>",
+  "contributors": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "harp serve",
+    "compile": "harp compile"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "harp": "^0.14.0"
+  }
+}

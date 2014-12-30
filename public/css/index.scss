@@ -1,0 +1,61 @@
+html {
+  background-color: #D9D9D9;
+}
+
+body {
+  max-width: 30em;
+  margin: 2em auto;
+  padding: 3em;
+  font-family: "Klinic Slab", "Avenir Next", "Avenir", "Futura", Verdana, sans-serif;
+  background-color: #FFF;
+  color: #606060;
+  font-feature-settings: "liga" 1, "kern" 1, "onum" 1;
+}
+
+a {
+  color: #E85623;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 300;
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3em;
+  a {
+    color: #606060;
+  }
+}
+
+.ghrepo {
+  text-decoration: none;
+  color: #606060;
+}
+
+.ghrepo-title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  @extend a;
+}
+
+.ghrepo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ghrepo-item {
+  margin-bottom: 1em;
+}
+
+.ghrepo-meta > span {
+  display: inline-block;
+  padding: 0.25em;
+  margin-left: -0.25em;
+  margin-right: 0.5em;
+  font-feature-settings: "liga" 1, "kern" 1, "lnum" 1;
+}

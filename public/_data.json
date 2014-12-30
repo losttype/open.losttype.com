@@ -1,0 +1,22 @@
+[
+  {
+    "repo": "losttype/dominiscule",
+    "desc": "Lost Type’s custom, light-weight build of domtastic."
+  },
+  {
+    "repo": "losttype/listing",
+    "desc": "Font Value Data for the entire Lost Type Co-op catalogue."
+  },
+  {
+    "repo": "kennethormandy/normalize-opentype.css",
+    "desc": "Adds OpenType features—ligatures, kerning, and more—to Normalize.css."
+  },
+  {
+    "repo": "kennethormandy/font-feature-fibbing",
+    "desc": "Hey, do you support the font-feature-settings CSS property? Safari, look—I know you’re lying!"
+  },
+  {
+    "repo": "kennethormandy/font-feature-abettings",
+    "desc": "Collect glyph names from a font’s OpenType gsub data."
+  }
+]
