@@ -16,6 +16,10 @@
     "desc": "Hey, do you support the font-feature-settings CSS property? Safari, look—I know you’re lying!"
   },
   {
+    "repo": "kennethormandy/font-service-specifics",
+    "desc": "Look up a font’s service vendor, through its delivery URL."
+  },
+  {
     "repo": "kennethormandy/font-feature-abettings",
     "desc": "Collect glyph names from a font’s OpenType gsub data."
   }
