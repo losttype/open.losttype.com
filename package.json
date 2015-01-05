@@ -12,10 +12,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "harp serve",
-    "compile": "harp compile"
+    "compile": "harp compile",
+    "deploy": "npm run compile && surge www openlt.surge.sh"
   },
   "dependencies": {},
   "devDependencies": {
-    "harp": "^0.14.0"
+    "harp": "^0.14.0",
+    "surge": "^0.5.2"
   }
 }
