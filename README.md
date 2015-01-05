@@ -30,7 +30,7 @@ npm run start
 # Now available at http://localhost:9000
 ```
 
-Now, develop as you’d like! The templates are written using Jade and the CSS is written using Sass, which will both automatically update in the browser upon you refreshing.
+Now, develop as you’d like! The templates are written using Jade and the CSS is written using Sass, which will both automatically updated in the browser when you refresh.
 
 ## License
 
