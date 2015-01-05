@@ -22,5 +22,9 @@
   {
     "repo": "kennethormandy/font-feature-abettings",
     "desc": "Collect glyph names from a font’s OpenType gsub data."
+  },
+  {
+    "repo": "losttype/opensource.losttype.com",
+    "desc": "The hub for open source projects by Lost Type contributors. "
   }
 ]
