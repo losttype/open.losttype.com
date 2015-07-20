@@ -8,6 +8,22 @@
     "desc": "Font Value Data for the entire Lost Type Co-op catalogue."
   },
   {
+    "repo": "losttype/contributors",
+    "desc": "Contributors to the Lost Type Co-op."
+  },
+  {
+    "repo": "losttype/fonts.css",
+    "desc": "@font-face declarations for every web font in the Lost Type Co-op catalogue."
+  },
+  {
+    "repo": "losttype/metalsmith-register-helpers",
+    "desc": "A Metalsmith plugin for registering Handlebars helpers."
+  },
+  {
+    "repo": "metalsmith-handlebars-within",
+    "desc": "A metalsmith plugin to specify metadata for `{{#with}}` in Handlebars templates."
+  },
+  {
     "repo": "kennethormandy/normalize-opentype.css",
     "desc": "Adds OpenType features—ligatures, kerning, and more—to Normalize.css."
   },
@@ -24,7 +40,20 @@
     "desc": "Collect glyph names from a font’s OpenType gsub data."
   },
   {
-    "repo": "losttype/opensource.losttype.com",
+    "repo": "kennethormandy/figment",
+    "desc": "Figure and caption helpers, for mobile-first layouts."
+  },
+  {
+    "repo": "kennethormandy/dodging-bullets",
+    "desc": "A mobile-first approach to hanging bullets and ordinals for ordered and unordered lists."
+  },
+  {
+    "repo": "losttype/open.losttype.com",
     "desc": "The hub for open source projects by Lost Type contributors. "
+  },
+  {
+    "repo": "losttype/blog.losttype.com",
+    "desc": "The Lost Type Co-op blog."
   }
+
 ]
