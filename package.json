@@ -9,13 +9,15 @@
   "private": true,
   "author": "Kenneth Ormandy <hello@kennethormandy.com>",
   "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "harp": "^0.14.0",
+    "surge": "latest"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "harp server",
-    "compile": "harp compile"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "harp": "^0.14.0"
+    "compile": "harp compile",
+    "deploy": "npm run compile && surge www open.losttype.com"
   }
 }
