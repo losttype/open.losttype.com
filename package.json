@@ -1,5 +1,5 @@
 {
-  "name": "opensource.losttype.com",
+  "name": "open.losttype.com",
   "version": "0.2.0",
   "description": "The hub for open source projects by Lost Type contributors.",
   "homepage": "opensource.losttype.com",
@@ -11,7 +11,7 @@
   "contributors": [],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "harp serve",
+    "start": "harp server",
     "compile": "harp compile"
   },
   "dependencies": {},

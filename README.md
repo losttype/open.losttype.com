@@ -36,4 +36,4 @@ Now, develop as you’d like! The templates are written using Jade and the CSS i
 
 [The MIT License (MIT)](LICENSE.md)
 
-Copyright © 2014 [Kenneth Ormandy](http://kennethormandy.com) & [The Lost Type Co-op](http://losttype.com)
+Copyright © 2014–2015 [Kenneth Ormandy](http://kennethormandy.com) & [The Lost Type Co-op](http://losttype.com)
