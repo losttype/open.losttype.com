@@ -1,7 +1,15 @@
 [
   {
-    "repo": "losttype/dominiscule",
-    "desc": "Lost Type’s custom, light-weight build of domtastic."
+    "repo": "losttype/fonts.css",
+    "desc": "@font-face declarations for every web font in the Lost Type Co-op catalogue."
+  },
+  {
+    "repo": "losttype/metalsmith-register-helpers",
+    "desc": "A Metalsmith plugin for registering Handlebars helpers."
+  },
+  {
+    "repo": "losttype/metalsmith-handlebars-within",
+    "desc": "A metalsmith plugin to specify metadata for `{{#with}}` in Handlebars templates."
   },
   {
     "repo": "losttype/listing",
@@ -12,16 +20,17 @@
     "desc": "Contributors to the Lost Type Co-op."
   },
   {
-    "repo": "losttype/fonts.css",
-    "desc": "@font-face declarations for every web font in the Lost Type Co-op catalogue."
+    "repo": "losttype/dominiscule",
+    "desc": "Lost Type’s custom, light-weight build of domtastic."
+  },
+
+  {
+    "repo": "losttype/open.losttype.com",
+    "desc": "The hub for open source projects by Lost Type contributors. "
   },
   {
-    "repo": "losttype/metalsmith-register-helpers",
-    "desc": "A Metalsmith plugin for registering Handlebars helpers."
-  },
-  {
-    "repo": "metalsmith-handlebars-within",
-    "desc": "A metalsmith plugin to specify metadata for `{{#with}}` in Handlebars templates."
+    "repo": "losttype/blog.losttype.com",
+    "desc": "The Lost Type Co-op blog."
   },
   {
     "repo": "kennethormandy/normalize-opentype.css",
@@ -48,12 +57,27 @@
     "desc": "A mobile-first approach to hanging bullets and ordinals for ordered and unordered lists."
   },
   {
-    "repo": "losttype/open.losttype.com",
-    "desc": "The hub for open source projects by Lost Type contributors. "
+    "repo": "kennethormandy/proof",
+    "desc": "A very basic template for proofing type with InDesign."
   },
   {
-    "repo": "losttype/blog.losttype.com",
-    "desc": "The Lost Type Co-op blog."
-  }
+    "repo": "kennethormandy/typecooker-ingredients",
+    "desc": "TypeCooker’s raw ingredients, via @TypeMyType’s RoboFont extension."
+  },
+  {
+    "repo": "kennethormandy/hanging-punctuation",
+    "desc": "A polyfill for proper hanging punctuation in CSS.",
+    "origin": "Boldewyn/jQuery.exdent"
+  },
+  {
+    "repo": "kennethormandy/opentype-feature-bundle",
+    "desc": "Syntax highlighting and snippets for OpenType feature development in Atom.",
+    "origin": "brew/opentype-feature-bundle"
+  },
+  {
+    "repo": "kennethormandy/python-for-glyphs",
+    "desc": "Python Snippets for use in Atom while designing type in Glyphs.",
+    "origin": "mekkablue/Python-for-Glyphs"
 
+  }
 ]
