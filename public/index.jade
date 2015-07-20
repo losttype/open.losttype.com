@@ -2,13 +2,15 @@ h1 Open Source at Lost&nbsp;Type
 
 ul.ghrepo-list
   each project in public._data
-    li.ghrepo-item
-      github-repo(src="#{ project.repo }")
-      noscript
-        a.ghrepo(data-ghrepo="url" href="https://github.com/#{ project. repo }")
-          .ghrepo-title(data-ghrepo="fullName") #{ project.repo }
-          .ghrepo-description
-            div(data-ghrepo="description") #{ project.desc }
-          .ghrepo-meta
-            span.ghrepo-stars <span>5</span> stars
-            span.ghrepo-forks <span>5,000</span> forks
+    //- Hide forks for now
+    if !project.origin
+      li.ghrepo-item
+        github-repo(src="#{ project.repo }")
+        noscript
+          a.ghrepo(data-ghrepo="url" href="https://github.com/#{ project. repo }")
+            .ghrepo-title(data-ghrepo="fullName") #{ project.repo }
+            .ghrepo-description
+              div(data-ghrepo="description") #{ project.desc }
+            //- .ghrepo-meta
+            //-   span.ghrepo-stars <span>5</span> stars
+            //-   span.ghrepo-forks <span>5,000</span> forks
